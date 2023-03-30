@@ -6,7 +6,7 @@
 body{
 width: 100vw;
 height: auto;
-background: linear-gradient(90deg,black,#2e3a42,#03275e);
+background: #fffb00;
 display: flexbox;
 flex-direction: column;
 align-items: center;
@@ -25,9 +25,10 @@ h1{
    font-family:"Delicious Handrawn",cursive; 
 }
 @keyframes title{
-    50%{
-        text-shadow: 0 0 15px #ffff00;
-        color: #00ffff;
+    50%
+    {
+        text-shadow: 0 0 15px #239c0b;
+        color: #51cccc;
     }
 
 }
@@ -98,8 +99,8 @@ font-family:"Delicious Handrawn",cursive;
 }
 .description-card > h2{
     text-align: center;
-    color: #ffff00;
-    text-shadow: 0 0 15px #ffff00;
+    color: #08f76b;
+    text-shadow: 0 0 30px #00ffff;
 
 }
 
@@ -113,7 +114,7 @@ font-family:"Delicious Handrawn",cursive;
 footer{
     width: 100%;
     height: 3rem;
-    background-color: #03275e;
+    background-color: #51cccc;
     display: flex;
     justify-content: center;
     align-items: center;
